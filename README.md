@@ -5,7 +5,7 @@
 * 번들러 : parcel
 * JS 플랫폼 : node.js
 
-parcel  
+# parcel  
 https://ko.parceljs.org/getting_started.html
 
 ```
@@ -23,4 +23,10 @@ npm run build
 ## 개발 서버 돌리기 ()
 ```
 npm run serve
+```
+
+# prisma
+설치하기
+```
+npm install -g prisma
 ```
