@@ -1,7 +1,13 @@
 # 시작하기
+## 추천글
+### prisma + graphql + yoga 듀토리얼(한글자료)(블로그)
+https://velog.io/@cadenzah/tags/graphql-yoga
+### 모델링 할 때 참고자료(type, filed 종류)(공식문서)
+https://www.prisma.io/docs/datamodel-and-migrations/datamodel-POSTGRES-knum/
+
 ## 사용할 stack
 
-* http library : express (안 사용할 수도 있다.)
+* graphql
 * 번들러 : parcel
 * JS 플랫폼 : node.js
 
@@ -56,3 +62,19 @@ https://www.prisma.io/docs/get-started/03-build-graphql-servers-with-prisma-JAVA
 ```
 npm install --save graphql-yoga
 ```
+
+# 모델링
+### Center(복지관)
+* id
+* name! (이름)
+* address! 주소
+* images[]
+* 위도
+* 경도
+
+### Review
+* id!
+* user!
+* star! # (1,2,3,4,5)
+* decs
+* 

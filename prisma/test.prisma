@@ -1,0 +1,24 @@
+# TODO
+# 부족한 필드 수정
+type Center {
+  id: ID! @id
+  name: String!
+  address: String!
+  latitude: Float
+  longitude: Float
+  images: [String]
+}
+
+type Review {
+  id: ID! @id
+  createdAt: DateTime! @createdAt
+  updatedAt: DateTime! @updatedAt
+  start: Int!
+  description: String
+  author: User! @relation(name: "ReviewsByUser")
+}
+
+type User {
+  id: ID! @id
+  reviews: [Review!]! @relation(name: "ReviewsByUser", onDelete: CASCADE)
+}
