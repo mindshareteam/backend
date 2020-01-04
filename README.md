@@ -30,3 +30,6 @@ npm run serve
 ```
 npm install -g prisma
 ```
+
+# zeit now 
+서버 배포를 위한 라이브러리
