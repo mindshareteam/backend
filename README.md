@@ -15,3 +15,12 @@ npm install -g parcel-bundler
 ```
 yarn global add parcel-bundler
 ```
+
+## 빌드하기
+```
+npm run build
+```
+## 개발 서버 돌리기 ()
+```
+npm run serve
+```
