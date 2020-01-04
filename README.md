@@ -27,8 +27,23 @@ npm run serve
 
 # prisma
 설치하기
+
 ```
 npm install -g prisma
+```
+
+## 생성하기
+
+장고에서 makemigartions이랑 비슷합니다.
+
+```
+prisma generate
+``` 
+
+## 데이터베이스 배포하기
+데이터베이스 배포는 따로 해줘야 합니다.
+```
+prisma deploy
 ```
 
 # zeit now 
