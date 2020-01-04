@@ -48,3 +48,11 @@ prisma deploy
 
 # zeit now 
 서버 배포를 위한 라이브러리
+
+
+# graphql app
+https://www.prisma.io/docs/get-started/03-build-graphql-servers-with-prisma-JAVASCRIPT-e001/
+
+```
+npm install --save graphql-yoga
+```
