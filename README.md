@@ -8,19 +8,9 @@ https://www.prisma.io/docs/datamodel-and-migrations/datamodel-POSTGRES-knum/
 ## 사용할 stack
 
 * graphql
-* 번들러 : parcel
+* prisma
 * JS 플랫폼 : node.js
 
-# parcel  
-https://ko.parceljs.org/getting_started.html
-
-```
-npm install -g parcel-bundler
-```
-
-```
-yarn global add parcel-bundler
-```
 
 ## 빌드하기
 ```
