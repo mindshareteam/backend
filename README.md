@@ -1,4 +1,5 @@
 # 시작하기
+데이터베이스 서버는 메일 알려드리면 초대해드릴꼐요.
 ## 추천글
 ### prisma + graphql + yoga 듀토리얼(한글자료)(블로그)
 https://velog.io/@cadenzah/tags/graphql-yoga
@@ -6,26 +7,22 @@ https://velog.io/@cadenzah/tags/graphql-yoga
 https://www.prisma.io/docs/datamodel-and-migrations/datamodel-POSTGRES-knum/
 
 ## 사용할 stack
-
+* graphql server
 * graphql
 * prisma
 * JS 플랫폼 : node.js
 
-
-## 빌드하기
+## 요약
+### 필요한 패키지 
 ```
-npm run build
+npm i -g nodemon prisma
 ```
-## 개발 서버 돌리기 ()
+```
+npm install
+```
+### 개발 서버 돌리기
 ```
 npm run serve
-```
-
-# prisma
-설치하기
-
-```
-npm install -g prisma
 ```
 
 ## 생성하기
@@ -45,6 +42,7 @@ prisma deploy
 # zeit now 
 서버 배포를 위한 라이브러리
 
+이건 일단 제가 배포할께요
 
 # graphql app
 https://www.prisma.io/docs/get-started/03-build-graphql-servers-with-prisma-JAVASCRIPT-e001/
@@ -52,19 +50,3 @@ https://www.prisma.io/docs/get-started/03-build-graphql-servers-with-prisma-JAVA
 ```
 npm install --save graphql-yoga
 ```
-
-# 모델링
-### Center(복지관)
-* id
-* name! (이름)
-* address! 주소
-* images[]
-* 위도
-* 경도
-
-### Review
-* id!
-* user!
-* star! # (1,2,3,4,5)
-* decs
-* 
