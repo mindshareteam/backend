@@ -1,5 +1,5 @@
-import Query from "./queries";
-import Mutation from "./mutations";
+const Query = require("./queries");
+const Mutation = require("./mutations");
 
 const resolvers = {
   Query,
@@ -16,4 +16,4 @@ const resolvers = {
   }
 };
 
-export default resolvers;
+module.exports = resolvers;

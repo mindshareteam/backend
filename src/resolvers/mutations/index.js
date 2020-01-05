@@ -21,6 +21,6 @@ const Mutation = {
   deletePost: (parent, { id }, context) => {
     return context.prisma.deletePost({ id });
   }
-},
+};
 
-export default Mutation;
+module.exports = Mutation;

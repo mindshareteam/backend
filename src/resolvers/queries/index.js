@@ -21,4 +21,4 @@ const Query = {
   }
 };
 
-export default Query;
+module.exports = Query;
