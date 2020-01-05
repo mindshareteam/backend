@@ -6,6 +6,34 @@ https://velog.io/@cadenzah/tags/graphql-yoga
 ### 모델링 할 때 참고자료(type, filed 종류)(공식문서)
 https://www.prisma.io/docs/datamodel-and-migrations/datamodel-POSTGRES-knum/
 
+## 폴더 구조
+```bash
+.
+├── README.md
+├── now.json # now zeit 배포 설정파일
+├── package-lock.json 
+├── package.json
+├── prisma # prisma datamodel 관련 폴더
+│   ├── datamodel.prisma # prisma datamoel
+│   ├── prisma.yml # prisma server setting
+│   ├── seed.js # 기본 데이타
+│   └── test.prisma # test 용임
+└── src
+    ├── generated # 자동 생성된 prisma-client
+    │   └── prisma-client
+    │       ├── index.d.ts
+    │       ├── index.js
+    │       └── prisma-schema.js
+    ├── index.js # 서버가 코딩되어 있음
+    ├── resolvers # resolver 관련 폴더
+    │   ├── index.js
+    │   ├── mutations # mutions 관련 폴더 
+    │   │   └── index.js
+    │   └── queries # queries 관련 폴더
+    │       └── index.js
+    └── schema.graphql # typedefs 파일
+```
+
 ## 사용할 stack
 * graphql server
 * graphql
